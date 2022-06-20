@@ -13,19 +13,19 @@ This application is intended to be run in a browser only and displays lifestyle 
 Folder Structure:
 
 - html
-    -index.html
-    -adventures.html
-    -athletics.html
-    -career.html
-    -contact.html
-    -cinema.html
-    -main.js
-    -vue.js
+    -   index.html
+    -   adventures.html
+    -   athletics.html
+    -   career.html
+    -   contact.html
+    -   cinema.html
+    -   main.js
+    -   vue.js
     
- -css
-    -main.css
+- css
+    - main.css
     
- - Images
+- Images
     - various .jpeg, .jpg, .png
 
 Setup/Installation Requirements:
