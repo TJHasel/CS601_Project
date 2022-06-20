@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="vue.js" type="module"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Athletics</title>
+</head>
+
+<body>
+  
+    <!-- Main Navigation Bar -->
+    <nav class="navbar">
+    <a class="nav-item" href="index.html"> Hello </a>
+    <a class="nav-item" href="career.html"> Career </a>
+    <a class="nav-item" href="adventures.html"> Explore </a>
+    <a class="nav-item-selected-Sport"> Sport </a>
+    <a class="nav-item" href="contact.html"> Contact </a>
+    <a class="nav-item" href="Cinema.html"> Cinema </a>
+    </nav>
+
+    <header>
+        <h1 class="header">Baseball</h1>
+    </header>
+
+    <div id="app">
+      <img class="cal_1957" :src="image" @mouseover="displayMSG()" @mouseout="removeMSG()" />
+      <h4 class="h4"> {{message}}</h4>
+    </div>
+
+    <div class="photo_list">
+        <a target="blank" href="../Images/coopers.png" alt="youth_baseball_player_headshot">
+          <img id = "youth" src="../Images/coopers.png" alt="baseball_player_headshot" width="600" height="400">
+        </a>
+      </div>
+
+    <div class="photo_list">
+        <a target="blank" href="../Images/HSpitching.png" alt="college_baseball_player_headshot">
+          <img id = "hs" src="../Images/HSpitching.png" alt="baseball_player_headshot" width="600" height="400">
+        </a>
+      </div>
+
+      <div class="photo_list">
+        <a target="blank" href="../Images/collegepitching.jpg" alt="baseball_player_headshot">
+          <img id = "coll" src="../Images/collegepitching.jpg" alt="baseball_player_headshot" width="600" height="400">
+        </a>
+      </div>
+
+      <div class="photo_list">
+        <a target="blank" href="../Images/oski.png" alt="baseball_player_headshot">
+          <img id = "oski" src="../Images/oski.png" alt="baseball_player_headshot" width="600" height="400">
+        </a>
+      </div>
+
+      
+      
+
+    <!-- Intro to my Baseball Career -->
+
+    <!-- intro for video/my characteristics as a player -->
+    <section class= "sect">
+            <article class="article">
+
+              Throughout most of my youth, I focused heavily on my development as a baseball player, traveling
+              the country from ages 8 to 21. My main position was Pitcher, where I was able to earn a scholarship to
+              the University of California, Berkeley, directly out of High School. I continued to play until my third
+              year in college, but decided to leave the sport to focus on academics and advancing career opportunities.
+            </article>
+    </section>
+    <iframe class= "video" width="450" height="305" src="https://www.youtube.com/embed/hOjXlShGWlI?clip=UgkxAxhHVCC4bmgZLBSgRnl_kzsnz6eJfBMg&amp;clipt=ENKmAhi1wQQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class= "sect" >
+              <article class="article">
+                I've naturally always been a high-velocity thrower, which can lead to batters swinging late and
+                often missing. However, it is equally crucial to possess a repertoire of off-speed pitches to challenge the
+                batters timing, and thus force them to constantly adjust to the pitches you are providing. This was an aspect
+                of my game needed significant improvement.
+            </article>
+    </section>
+
+
+    <!-- social media links and GitHub -->
+    <footer>
+        <nav class="footer">
+            <a class="footeritem" href="https://www.linkedin.com/in/trevin-haseltine-a2359490/" target="blank"> Linkedin</a>
+            <a class="footeritem" href="https://github.com/TrevinJH36" target="blank">GitHub</a>
+            <a class="footeritem" href="https://www.instagram.com/_trevinh/" target="blank">Instagram</a>
+        </nav>  
+    </footer>
+</body>
+
+</html> 
