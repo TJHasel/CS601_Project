@@ -34,7 +34,9 @@ Setup/Installation Requirements:
 
 2. Ensure you are at the top level within the repository.
 
-3. Run index.html in the browser of your choice.
+3. Run index.html on a server (i.e.localhost/) in the browser of your choice. 
+
+4. Or, simply visit ...
 
 Licenses: 
 
