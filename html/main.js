@@ -1,4 +1,4 @@
-
+//function to display section on adventure page
 function getText() {
 
     const x = document.getElementById('sect_explore')
@@ -10,7 +10,7 @@ function getText() {
     }
 }
 
-
+//function to display video on cinema page
 function getTrailer() {
 
     const y = document.getElementById('cinema_video')
@@ -22,6 +22,7 @@ function getTrailer() {
     }
 }
 
+//form logic on contact page
 function validateNames() {
 
         event.preventDefault()
