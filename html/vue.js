@@ -2,7 +2,7 @@
 
 const cal = "../Images/cal_1957.jpg";
 
-
+//main vue component to show text when 1957 cal baseball image is hovered
   Vue.createApp({
     data() {
       return {
