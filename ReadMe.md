@@ -36,7 +36,7 @@ Setup/Installation Requirements:
 
 3. Run index.html on a server (i.e.localhost/) in the browser of your choice. 
 
-4. Or, simply visit ...
+4. Alternatively, you can simply visit https://trevinhaseltine.netlify.app to view the website.
 
 Licenses: 
 
